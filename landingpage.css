@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+body {
+    background-image: url(./floresta.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    color: rgba(250, 242, 242, 0.753);
+    font-family: 'Sarala', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3 {
+    display: inline;
+    padding: 0px 35px;
+    font-size: 15px;
+}
+
+main {
+    margin-bottom: 200px;
+    margin-top: 80px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 40px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.62) 50%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    margin-bottom: 50px;
+}
+
+.main {
+    font-size: 28px;
+    line-height: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.logo {
+    padding: 10px 30px;
+}
+
+footer {
+    margin-top: 210px;
+}
+
+.footer {
+    padding-top: 50px;
+    padding-left: 70px;
+}
